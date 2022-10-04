@@ -1,0 +1,12 @@
+C:\Users\jvcor\Documents\Projetos\ExemploFundamentos\ExemploFundamentos.Common\bin\Debug\net6.0\ExemploFundamentos.Common.deps.json
+C:\Users\jvcor\Documents\Projetos\ExemploFundamentos\ExemploFundamentos.Common\bin\Debug\net6.0\ExemploFundamentos.Common.dll
+C:\Users\jvcor\Documents\Projetos\ExemploFundamentos\ExemploFundamentos.Common\bin\Debug\net6.0\ExemploFundamentos.Common.pdb
+C:\Users\jvcor\Documents\Projetos\ExemploFundamentos\ExemploFundamentos.Common\obj\Debug\net6.0\ExemploFundamentos.Common.csproj.AssemblyReference.cache
+C:\Users\jvcor\Documents\Projetos\ExemploFundamentos\ExemploFundamentos.Common\obj\Debug\net6.0\ExemploFundamentos.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jvcor\Documents\Projetos\ExemploFundamentos\ExemploFundamentos.Common\obj\Debug\net6.0\ExemploFundamentos.Common.AssemblyInfoInputs.cache
+C:\Users\jvcor\Documents\Projetos\ExemploFundamentos\ExemploFundamentos.Common\obj\Debug\net6.0\ExemploFundamentos.Common.AssemblyInfo.cs
+C:\Users\jvcor\Documents\Projetos\ExemploFundamentos\ExemploFundamentos.Common\obj\Debug\net6.0\ExemploFundamentos.Common.csproj.CoreCompileInputs.cache
+C:\Users\jvcor\Documents\Projetos\ExemploFundamentos\ExemploFundamentos.Common\obj\Debug\net6.0\ExemploFundamentos.Common.dll
+C:\Users\jvcor\Documents\Projetos\ExemploFundamentos\ExemploFundamentos.Common\obj\Debug\net6.0\refint\ExemploFundamentos.Common.dll
+C:\Users\jvcor\Documents\Projetos\ExemploFundamentos\ExemploFundamentos.Common\obj\Debug\net6.0\ExemploFundamentos.Common.pdb
+C:\Users\jvcor\Documents\Projetos\ExemploFundamentos\ExemploFundamentos.Common\obj\Debug\net6.0\ref\ExemploFundamentos.Common.dll
