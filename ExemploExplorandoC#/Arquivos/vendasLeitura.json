@@ -1,0 +1,14 @@
+[
+    {
+      "Id": 1,
+      "Nome_Produto": "Material de Escritório",
+      "Preco": 25.00,
+      "DataVenda": "2022-10-22T01:14:16.0104711-03:00"
+    },
+    {
+      "Id": 2,
+      "Nome_Produto": "Caneta Bic",
+      "Preco": 1.00,
+      "DataVenda": "2022-10-22T01:14:16.0104711-03:00"
+    }
+  ]

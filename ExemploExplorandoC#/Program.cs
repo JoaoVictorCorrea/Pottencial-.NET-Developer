@@ -1,4 +1,5 @@
 ﻿using ExemploExplorandoC_.Models;
+using Newtonsoft.Json;
 
 //---------------------- Treinando Propriedades, Métodos e Construtores --------------------------------
 
@@ -126,3 +127,37 @@ else
 Console.WriteLine();
 
 Console.WriteLine(estados["MG"]);
+
+Console.WriteLine();
+
+//---------------------- Treinando Serialização e Deserialização --------------------------------
+
+
+//Serialização
+
+DateTime dataAtual = DateTime.Now;
+
+List<Venda> listaVendas = new List<Venda>();
+
+Venda v1 = new Venda(1, "Material de Escritório", 25.00M, dataAtual);
+Venda v2 = new Venda(2, "Caneta Bic", 1.00M, dataAtual);
+
+listaVendas.Add(v1);
+listaVendas.Add(v2);
+
+string serializado = JsonConvert.SerializeObject(listaVendas, Formatting.Indented); //escrevendo em JSON
+
+File.WriteAllText("Arquivos/vendas.json", serializado);
+
+Console.WriteLine(serializado);
+
+//Deserialização
+
+string conteudoArquivo = File.ReadAllText("Arquivos/vendasLeitura.json"); //lendo um arquivo em JSON
+
+List<Venda> listaLeituraVenda = JsonConvert.DeserializeObject<List<Venda>>(conteudoArquivo);
+
+foreach (Venda venda in listaLeituraVenda)
+{
+    Console.WriteLine($"Id: {venda.Id}, Produto: {venda.Produto} - Preço: {venda.Preco}, Data: {venda.DataVenda.ToString("dd/MM/yyyy HH:mm")}");
+}

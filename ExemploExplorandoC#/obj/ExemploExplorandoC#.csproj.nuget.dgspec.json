@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jvcor\\Documents\\Projetos\\ExemploExplorandoC#\\ExemploExplorandoC#.csproj": {}
+    "C:\\Users\\jvcor\\Documents\\Projetos\\Pottencial\\ExemploExplorandoC#\\ExemploExplorandoC#.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jvcor\\Documents\\Projetos\\ExemploExplorandoC#\\ExemploExplorandoC#.csproj": {
+    "C:\\Users\\jvcor\\Documents\\Projetos\\Pottencial\\ExemploExplorandoC#\\ExemploExplorandoC#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jvcor\\Documents\\Projetos\\ExemploExplorandoC#\\ExemploExplorandoC#.csproj",
+        "projectUniqueName": "C:\\Users\\jvcor\\Documents\\Projetos\\Pottencial\\ExemploExplorandoC#\\ExemploExplorandoC#.csproj",
         "projectName": "ExemploExplorandoC#",
-        "projectPath": "C:\\Users\\jvcor\\Documents\\Projetos\\ExemploExplorandoC#\\ExemploExplorandoC#.csproj",
+        "projectPath": "C:\\Users\\jvcor\\Documents\\Projetos\\Pottencial\\ExemploExplorandoC#\\ExemploExplorandoC#.csproj",
         "packagesPath": "C:\\Users\\jvcor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jvcor\\Documents\\Projetos\\ExemploExplorandoC#\\obj\\",
+        "outputPath": "C:\\Users\\jvcor\\Documents\\Projetos\\Pottencial\\ExemploExplorandoC#\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -43,6 +43,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
