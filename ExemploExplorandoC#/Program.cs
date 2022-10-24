@@ -66,6 +66,8 @@ foreach(int item in fila){
 
 Console.WriteLine();
 
+//------------------------------------------------------
+
 Stack<int> pilha = new Stack<int>();
 
 pilha.Push(55);
@@ -86,6 +88,8 @@ foreach(int item in pilha){
 }
 
 Console.WriteLine();
+
+//------------------------------------------------------
 
 Dictionary<string, string> estados = new Dictionary<string, string>();
 
@@ -151,6 +155,7 @@ File.WriteAllText("Arquivos/vendas.json", serializado);
 
 Console.WriteLine(serializado);
 
+
 //Deserialização
 
 string conteudoArquivo = File.ReadAllText("Arquivos/vendasLeitura.json"); //lendo um arquivo em JSON
@@ -161,3 +166,53 @@ foreach (Venda venda in listaLeituraVenda)
 {
     Console.WriteLine($"Id: {venda.Id}, Produto: {venda.Produto} - Preço: {venda.Preco}, Data: {venda.DataVenda.ToString("dd/MM/yyyy HH:mm")}");
 }
+
+Console.WriteLine();
+
+//---------------------- Treinando Tipos Especias --------------------------------
+
+var listaAnonimo = listaVendas.Select(x => new { x.Produto, x.Preco });
+
+foreach (var venda in listaAnonimo)
+{
+    Console.WriteLine($"Produto: {venda.Produto}, Preço: {venda.Preco}");
+}
+
+Console.WriteLine();
+
+//------------------------------------------------------
+
+dynamic variavelDinamica = 4;
+Console.WriteLine($"Tipo da variável: {variavelDinamica.GetType()}, Valor: {variavelDinamica}");
+
+variavelDinamica = "Teste";
+Console.WriteLine($"Tipo da variável: {variavelDinamica.GetType()}, Valor: {variavelDinamica}");
+
+variavelDinamica = true;
+Console.WriteLine($"Tipo da variável: {variavelDinamica.GetType()}, Valor: {variavelDinamica}");
+
+Console.WriteLine();
+
+//------------------------------------------------------
+
+MeuArray<int> arrayInteiro = new MeuArray<int>();
+
+arrayInteiro.AdicionarElementoArray(30);
+
+Console.WriteLine(arrayInteiro[0]);
+
+MeuArray<string> arrayString = new MeuArray<string>();
+
+arrayString.AdicionarElementoArray("Brasil");
+
+Console.WriteLine(arrayString[0]);
+
+Console.WriteLine();
+
+//------------------------------------------------------
+
+int numero = 15;
+
+string mensagem = $"O número {numero} é {(numero.VerificarPar() ? "par" : "impar")}";
+
+Console.WriteLine(mensagem);
