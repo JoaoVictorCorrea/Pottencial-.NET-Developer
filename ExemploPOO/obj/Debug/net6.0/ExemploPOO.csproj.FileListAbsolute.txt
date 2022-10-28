@@ -1,0 +1,15 @@
+C:\Users\jvcor\Documents\Projetos\Pottencial\ExemploPOO\bin\Debug\net6.0\ExemploPOO.exe
+C:\Users\jvcor\Documents\Projetos\Pottencial\ExemploPOO\bin\Debug\net6.0\ExemploPOO.deps.json
+C:\Users\jvcor\Documents\Projetos\Pottencial\ExemploPOO\bin\Debug\net6.0\ExemploPOO.runtimeconfig.json
+C:\Users\jvcor\Documents\Projetos\Pottencial\ExemploPOO\bin\Debug\net6.0\ExemploPOO.dll
+C:\Users\jvcor\Documents\Projetos\Pottencial\ExemploPOO\bin\Debug\net6.0\ExemploPOO.pdb
+C:\Users\jvcor\Documents\Projetos\Pottencial\ExemploPOO\obj\Debug\net6.0\ExemploPOO.csproj.AssemblyReference.cache
+C:\Users\jvcor\Documents\Projetos\Pottencial\ExemploPOO\obj\Debug\net6.0\ExemploPOO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jvcor\Documents\Projetos\Pottencial\ExemploPOO\obj\Debug\net6.0\ExemploPOO.AssemblyInfoInputs.cache
+C:\Users\jvcor\Documents\Projetos\Pottencial\ExemploPOO\obj\Debug\net6.0\ExemploPOO.AssemblyInfo.cs
+C:\Users\jvcor\Documents\Projetos\Pottencial\ExemploPOO\obj\Debug\net6.0\ExemploPOO.csproj.CoreCompileInputs.cache
+C:\Users\jvcor\Documents\Projetos\Pottencial\ExemploPOO\obj\Debug\net6.0\ExemploPOO.dll
+C:\Users\jvcor\Documents\Projetos\Pottencial\ExemploPOO\obj\Debug\net6.0\refint\ExemploPOO.dll
+C:\Users\jvcor\Documents\Projetos\Pottencial\ExemploPOO\obj\Debug\net6.0\ExemploPOO.pdb
+C:\Users\jvcor\Documents\Projetos\Pottencial\ExemploPOO\obj\Debug\net6.0\ExemploPOO.genruntimeconfig.cache
+C:\Users\jvcor\Documents\Projetos\Pottencial\ExemploPOO\obj\Debug\net6.0\ref\ExemploPOO.dll
