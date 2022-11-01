@@ -1,4 +1,7 @@
-﻿using ExemploPOO.Models;
+﻿using ExemploPOO.Interfaces;
+using ExemploPOO.Models;
+
+// ------------------------------ Abstração e Encapsulamento ------------------------------
 
 Pessoa p1 = new Pessoa();
 
@@ -17,6 +20,8 @@ c1.ExibirSaldo();
 
 Console.WriteLine("");
 
+// ------------------------------ Herança e Polimorfismo ------------------------------
+
 Aluno a1 = new Aluno();
 
 a1.Nome = "Yuri";
@@ -34,3 +39,16 @@ prof1.Idade = 33;
 prof1.Salario = 10.000M;
 
 prof1.Apresentar();
+
+Console.WriteLine("");
+
+// ------------------------------ Classes Abstratas e Interfaces ------------------------------
+
+Corrente c = new Corrente();
+c.Creditar(500);
+c.ExibirSaldo();
+
+Console.WriteLine("");
+
+ICalculadora calc = new Calculadora();
+Console.WriteLine(calc.Multiplicar(10, 5));

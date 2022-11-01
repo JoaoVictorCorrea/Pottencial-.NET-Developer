@@ -9,7 +9,7 @@ namespace ExemploPOO.Models
     {
         public decimal Salario { get; set; }
 
-        public override void Apresentar()
+        public sealed override void Apresentar()
         {
             Console.WriteLine($"Olá, meu nome é {Nome}, tenho {Idade} anos, sou professor e ganho R$ {Salario}!");
         }
