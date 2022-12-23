@@ -1,0 +1,11 @@
+dotnet new webapi -- Criação um projeto voltado para API	
+
+dotnet tool install --global dotnet-ef -- Instala o EF à nivel de máquina
+
+dotnet add package Microsoft.EntityFrameworkCore.Design -- Insatalação de pacote à nivel de código
+
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer -- Insatalação de pacote à nivel de código, para o SQL SERVER
+
+dotnet-ef migrations add nomeDaMigration -- Criação de uma migration
+
+dotnet-ef database update -- Sobe a migration para o Banco
